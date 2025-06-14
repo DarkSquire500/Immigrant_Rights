@@ -6,6 +6,6 @@ COPY . /app
 
 RUN chmod +x ./mvnw
 
-RUN mvn clean install
+RUN ./mvnw clean install
 
 CMD ["sh", "-c", "java -jar target/*.jar"]
