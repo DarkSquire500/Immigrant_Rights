@@ -10,12 +10,15 @@ header {
 }
 
 .navbar a {
-  color: white;
+  color: #ffdc00;
   text-decoration: none;
   margin-right: 20px;
   font-weight: bold;
 }
-
+.active {
+  color: #ffdd57;
+  text-decoration: underline;
+}
 .navbar a:hover {
   text-decoration: underline;
   color: #ffdd57;
@@ -36,8 +39,8 @@ li {
   width: 100%;
   max-height: 400px;
   object-fit: cover;
-  display: block;
-  margin: 20px auto;
+  margin: 20px 0;
+  border-radius: 8px;
 }
 
 @media (max-width: 768px) {
@@ -51,4 +54,9 @@ li {
   p {
     font-size: 1rem;
   }
+}
+
+.navbar a.active {
+  text-decoration: underline;
+  color: #ffcc00; 
 }
