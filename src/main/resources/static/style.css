@@ -58,6 +58,10 @@ li {
 }
 
 .navbar a.active {
+  color: #ffcc00;
   text-decoration: underline;
-  color: #ffcc00; 
+  font-weight: bold;
+  background-color: #00446655; /* subtle background shade */
+  padding: 4px 8px;
+  border-radius: 6px;
 }
