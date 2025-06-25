@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Report a Violation</title>
    <link rel="stylesheet" href="/style.css">
+   <script src="/LangSupp.js"></script>
 </head>
 <body>
 <header style="background-color: #004466; padding: 10px;">
@@ -15,8 +16,14 @@
     <a href="/help" >Find Help</a>
   </nav>
 </header>
+<div id="language-toggle" style="text-align: right; margin-bottom: 10px;">
+  <button onclick="showEnglish()">English</button>
+  <button onclick="showSpanish()">Español</button>
+  <button onclick="showPortuguese()">Português</button>
+</div>
 
-  <h1>Report a Violation</h1>
+<div id="english-content">
+<h1>Report a Violation</h1>
   <p>This page explains how to report violations of the Trust Act and immigrant rights abuses.</p>
   <p></p>
   <p></p>
@@ -35,5 +42,51 @@
   <li>Get in contact with State Wide Services and local assistance organizations.</li>
   <li>Report the event to local immigrant rights organizations like Connecticut Immigrant Rights Alliance.</li>
   </ul>
+</div>
+
+<div id="spanish-content" style="display: none;">
+<h1>Reportar una violación</h1>
+  <p>Esta página explica cómo reportar violaciones a la Ley de Confianza o abusos de derechos de inmigrantes.</p>
+  <p></p>
+  <p></p>
+  <p><b>Puede reportar si ocurre lo siguiente:</b></p>
+  <ul>
+  <li>Un oficial/agente entra a su casa sin orden judicial ni consentimiento.</li>
+  <li>Lo detienen sin una razón válida.</li>
+  <li>Le niegan el derecho a hablar con un abogado.</li>
+  </ul>
+  <p></p>
+  <p><b>Antes de reportar, anote:</b></p>
+  <ul>
+  <li>Nombre y número de placa del agente.</li>
+  <li>Hora del incidente.</li>
+  <li>Lugar donde ocurrió.</li>
+  <li>Después, contacte a servicios estatales y organizaciones comunitarias.</li>
+  <li>Puede reportar a organizaciones como la Connecticut Immigrant Rights Alliance.</li>
+  </ul>
+</div>
+
+<div id="portuguese-content" style="display: none;">
+<h1>Denunciar uma violação</h1>
+  <p>Esta página explica como denunciar violações à Lei da Confiança ou abusos contra os direitos dos imigrantes.</p>
+  <p></p>
+  <p></p>
+  <p><b>Denuncie se ocorrer:</b></p>
+  <ul>
+  <li>Um agente/policial entrar em sua casa sem mandado ou permissão.</li>
+  <li>Você for detido sem justificativa legal.</li>
+  <li>Impedirem você de falar com um advogado.</li>
+  </ul>
+  <p></p>
+  <p><b>Antes de denunciar, anote:</b></p>
+  <ul>
+  <li>Nome e número da identificação do agente.</li>
+  <li>Hora do incidente.</li>
+  <li>Local onde aconteceu.</li>
+  <li>Depois, entre em contato com serviços estaduais e organizações de apoio.</li>
+  <li>Exemplo: Connecticut Immigrant Rights Alliance.</li>
+  </ul>
+</div>
+
 </body>
 </html>
