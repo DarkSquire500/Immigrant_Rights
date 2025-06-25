@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Know Your Rights</title>
    <link rel="stylesheet" href="/style.css">
+<script src="/LangSupp.js"></script>
 </head>
 <body>
 <header style="background-color: #004466; padding: 10px;">
@@ -15,8 +16,13 @@
     <a href="/help" >Find Help</a>
   </nav>
 </header>
-
-  <h1>Know Your Rights</h1>
+<div id="language-toggle" style="text-align: right; margin-bottom: 10px;">
+  <button onclick="showEnglish()">English</button>
+  <button onclick="showSpanish()">Español</button>
+  <button onclick="showPortuguese()">Português</button>
+</div>
+<div id="english-content">
+<h1>Know Your Rights</h1>
   <p>This page informs immigrants of their constitutional rights when approached by law enforcement or ICE.</p>
   <p> </p>
   <p> </p>
@@ -45,5 +51,70 @@
 <li>If the officer/agent asks you to sign a paper, don’t do it until your lawyer can help you in giving you legal advice. </li>
 <li>You also have the right to make a phone call to someone, contact your consulate and appear before a judge (unless in very limited emergency cases).</li>
 </ul>
+</div>
+
+<div id="spanish-content" style="display: none;">
+<h1>Conozca sus derechos</h1>
+  <p>Esta página informa a los inmigrantes sobre sus derechos constitucionales cuando se enfrentan a la policía o a ICE.</p>
+  <p> </p>
+  <p> </p>
+  <p><b>¿Cuáles son sus derechos y cómo puede usarlos?</b></p>
+  <p>Todo inmigrante, incluyendo a los indocumentados, tiene ciertos derechos constitucionales, como:</p>
+  <ul>
+  <li>El derecho a guardar silencio.</li>
+  <li>El derecho a un abogado.</li>
+  <li>Protección contra registros e incautaciones ilegales.</li>
+  <li>No está obligado a responder preguntas sobre su estatus migratorio.</li>
+  <li>Derecho al debido proceso antes de ser detenido o deportado.</li>
+</ul>
+<p></p>
+<p><b>Si un agente de ICE o la policía está en su puerta, puede hacer lo siguiente:</b></p>
+<ul>
+<li>No abra la puerta y pida ver una orden judicial.</li>
+<li>Si no tienen una, no está legalmente obligado a dejarlos entrar ni responder hasta que la tengan.</li>
+<li>Si no obedecen, mantenga la calma y no discuta — use esa información en la corte como prueba de conducta indebida.</li>
+<li>Si tienen una orden, pida que la deslicen por debajo de la puerta y revise si es oficial (nombre y dirección correctos). Si no lo es, no los deje entrar.</li>
+<li>Puede grabar o tomar notas. Si le dicen que no puede, no les haga caso. Es su derecho y puede usarlo como prueba en la corte.</li>
+</ul>
+<p></p>
+<p><b>En caso de ser detenido:</b></p>
+<ul>
+<li>Puede invocar la Quinta Enmienda y pedir hablar con su abogado.</li>
+<li>Si le piden firmar un documento, no lo firme hasta que su abogado le dé asesoría legal.</li>
+<li>Tiene derecho a hacer una llamada, contactar a su consulado y presentarse ante un juez (excepto en emergencias específicas).</li>
+</ul>
+</div>
+
+<div id="portuguese-content" style="display: none;">
+<h1>Conheça seus direitos</h1>
+  <p>Esta página informa os imigrantes sobre seus direitos constitucionais quando abordados pela polícia ou pelo ICE.</p>
+  <p> </p>
+  <p> </p>
+  <p><b>Quais são seus direitos e como usá-los?</b></p>
+  <p>Todo imigrante, inclusive os indocumentados, tem certos direitos constitucionais, como:</p>
+  <ul>
+  <li>O direito de permanecer em silêncio.</li>
+  <li>O direito a um advogado.</li>
+  <li>Proteção contra buscas e apreensões ilegais.</li>
+  <li>Não é obrigado a responder perguntas sobre seu status migratório.</li>
+  <li>Direito ao devido processo antes de ser detido ou deportado.</li>
+</ul>
+<p></p>
+<p><b>Se um agente do ICE ou policial estiver na sua porta:</b></p>
+<ul>
+<li>Não abra a porta e peça um mandado judicial.</li>
+<li>Se eles não tiverem um, você não é legalmente obrigado a deixá-los entrar nem a responder perguntas.</li>
+<li>Se insistirem, mantenha a calma e não discuta — use isso como prova no tribunal.</li>
+<li>Se tiverem um mandado, peça que deslizem por baixo da porta e verifique se é oficial (com seu nome e endereço). Se não for válido, não obedeça.</li>
+<li>Você pode gravar ou anotar. Se o agente disser que você não pode, ignore — é seu direito e pode ser usado como prova.</li>
+</ul>
+<p></p>
+<p><b>Se for detido:</b></p>
+<ul>
+<li>Você pode invocar a Quinta Emenda e pedir para falar com seu advogado.</li>
+<li>Não assine nada até que seu advogado revise e oriente. </li>
+<li>Você tem o direito de fazer uma ligação, contatar seu consulado e aparecer diante de um juiz (exceto em emergências).</li>
+</ul>
+</div>
 </body>
 </html>
