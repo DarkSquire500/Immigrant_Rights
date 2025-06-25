@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Find Help</title>
    <link rel="stylesheet" href="/style.css">
+   <script src="/LangSupp.js"></script>
 </head>
 <body>
 <header style="background-color: #004466; padding: 10px;">
@@ -15,8 +16,14 @@
     <a href="/help" class="active" >Find Help</a>
   </nav>
 </header>
+<div id="language-toggle" style="text-align: right; margin-bottom: 10px;">
+  <button onclick="showEnglish()">English</button>
+  <button onclick="showSpanish()">Español</button>
+  <button onclick="showPortuguese()">Português</button>
+</div>
 
-  <h2>Find Help</h2>
+<div id="english-content">
+<h2>Find Help</h2>
   <p>This page provides resources and contact information for immigrant legal and community support.</p>
   
   
@@ -62,5 +69,106 @@
   </a>
   </li>
   </ul>
+</div>
+
+<div id="spanish-content" style="display: none;">
+<h2>Buscar ayuda</h2>
+  <p>Esta página proporciona recursos y contactos legales y comunitarios para inmigrantes.</p>
+  
+  
+  
+  <p>Organizaciones útiles:</p>
+  <ul class="help-resources">
+  <li>
+  <a href="https://cirict.org" target="_blank">
+  Connecticut Institute for Refugees and Immigrants (CIRI)
+  </a> 
+  <p>Asistencia legal, apoyo para asilo y reasentamiento de refugiados</p>
+  <a href="tel:12033360141">Llamar: 1-203-336-0141</a>
+  <p></p>
+  </li>
+  
+  <li>
+  <a href="https://acluct.org" target="_blank">
+  American Civil Liberties Union (ACLU) of Connecticut
+  </a> - 
+  <p>Defensa legal de los derechos civiles, incluyendo casos de inmigración</p>
+  <a href="tel:18605239146">Llamar: 1-860-523-9146</a>
+  <p></p>
+  </li>
+  
+  <li>
+  <a href="https://ctprf.org" target="_blank">
+  Center for Latino Progress
+  </a> - 
+  <p>Promoción de condiciones sociales y económicas para la comunidad hispana</p>
+  </li>
+  
+  
+  <h3><b>Si aparece ICE o presencia una detención, contacte estos números de emergencia:</b></h3>
+  <li>
+  <p>📞 Línea de Emergencia por Redadas de ICE – United We Dream</p>
+  <a href="tel:18443631423">Llamar: 1-844-363-1423
+  </a> - (soporte bilingüe inglés/español)
+  </li>
+  
+  <li>
+  <p>📞 Línea Nacional de Detención de Inmigrantes – Freedom for Immigrants</p>
+  <a href="tel:12097573733">Llamar: 1-209-757-3733
+  </a>
+  </li>
+  </ul>
+</div>
+
+<div id="portuguese-content" style="display: none;">
+<h2>Buscar ajuda</h2>
+  <p>Esta página oferece recursos e contatos legais e comunitários para imigrantes.</p>
+  
+  
+  
+  <p>Organizações úteis:</p>
+  <ul class="help-resources">
+  <li>
+  <a href="https://cirict.org" target="_blank">
+  Connecticut Institute for Refugees and Immigrants (CIRI)
+  </a> 
+  <p>Apoio jurídico, asilo e reassentamento de refugiados</p>
+  <a href="tel:12033360141">Ligar: 1-203-336-0141</a>
+  <p></p>
+  </li>
+  
+  <li>
+  <a href="https://acluct.org" target="_blank">
+  American Civil Liberties Union (ACLU) of Connecticut
+  </a> - 
+  <p>Defesa dos direitos civis e proteção contra abusos na imigração</p>
+  <a href="tel:18605239146">Ligar: 1-860-523-9146</a>
+  <p></p>
+  </li>
+  
+  <li>
+  <a href="https://ctprf.org" target="_blank">
+  Center for Latino Progress
+  </a> - 
+  <p>Apoio ao progresso social e econômico da comunidade latina</p>
+  </li>
+  
+  
+  <h3><b>Se o ICE aparecer ou você testemunhar uma detenção, ligue para:</b></h3>
+  <li>
+  <p>📞 Linha de Emergência do ICE – United We Dream</p>
+  <a href="tel:18443631423">Ligar: 1-844-363-1423
+  </a> - (suporte bilíngue inglês/espanhol)
+  </li>
+  
+  <li>
+  <p>📞Linha Nacional de Detenção de Imigrantes – Freedom for Immigrants</p>
+  <a href="tel:12097573733">Ligar: 1-209-757-3733
+  </a>
+  </li>
+  </ul>
+</div>
+
+  
 </body>
 </html>
