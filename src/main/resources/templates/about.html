@@ -7,6 +7,8 @@
    <script src="/LangSupp.js"></script>
 </head>
 <body>
+
+<div id="english-content">
 <header style="background-color: #004466; padding: 10px;">
   <nav class="navbar">
     <a href="/"> Home</a>
@@ -21,7 +23,6 @@
   <button onclick="showSpanish()">Español</button>
   <button onclick="showPortuguese()">Português</button>
 </div>
-<div id="english-content">
 <h1>About the Trust Act</h1>
 <p>This page explains Connecticut's Trust Act and its importance to immigrant rights.</p>
 <p>The Trust Act limits how local police can cooperate with ICE and protects immigrants from deportation without due process.</p>
@@ -32,7 +33,23 @@
 
 </div>
 
+
 <div id="spanish-content" style="display: none;">
+<header style="background-color: #004466; padding: 10px;">
+  <nav class="navbar">
+    <a href="/">Inicio</a>
+    <a href="/about" class="active">Sobre la Ley de Confianza</a>
+    <a href="/rights" >Conozca sus derechos</a>
+    <a href="/report" >Reportar violaciones</a>
+    <a href="/help" >Buscar ayuda</a>
+  </nav>
+</header>
+<div id="language-toggle" style="text-align: right; margin-bottom: 10px;">
+  <button onclick="showEnglish()">English</button>
+  <button onclick="showSpanish()">Español</button>
+  <button onclick="showPortuguese()">Português</button>
+</div>
+
 <h1>Sobre la Ley de Confianza</h1>
 <p>Esta página explica la Ley de Confianza de Connecticut y su importancia para los derechos de los inmigrantes.</p>
 <p>La Ley de Confianza limita cómo la policía local puede cooperar con ICE y protege a los inmigrantes de la deportación sin el debido proceso.</p>
@@ -43,6 +60,20 @@
 </div>
 
 <div id="portuguese-content" style="display: none;">
+<header style="background-color: #004466; padding: 10px;">
+  <nav class="navbar">
+    <a href="/"> Início</a>
+    <a href="/about" class="active" >Sobre a Lei da Confiança</a>
+    <a href="/rights" >Conheça seus direitos</a>
+    <a href="/report" >Denunciar violações</a>
+    <a href="/help" >Buscar ajuda</a>
+  </nav>
+</header>
+<div id="language-toggle" style="text-align: right; margin-bottom: 10px;">
+  <button onclick="showEnglish()">English</button>
+  <button onclick="showSpanish()">Español</button>
+  <button onclick="showPortuguese()">Português</button>
+</div>
 <h1>História da Lei da Confiança em Connecticut</h1>
 <p>Esta página explica a Lei da Confiança de Connecticut e sua importância para os direitos dos imigrantes.</p>
 <p>A Lei da Confiança limita como a polícia local pode cooperar com o ICE e protege os imigrantes da deportação sem o devido processo legal.</p>
