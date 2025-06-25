@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
    <link rel="stylesheet" href="/style.css">
+   <script src="/LangSupp.js"></script>
 </head>
 <body>
 <header style="background-color: #004466; padding: 10px;">
@@ -15,13 +16,37 @@
     <a href="/help" >Find Help</a>
   </nav>
 </header>
+<div id="language-toggle" style="text-align: right; margin-bottom: 10px;">
+  <button onclick="showEnglish()">English</button>
+  <button onclick="showSpanish()">Español</button>
+  <button onclick="showPortuguese()">Português</button>
+</div>
 
+<div id="english-content">
   <h1>Welcome to the Immigrant Rights Info Site</h1>
   <p>This site helps Hartford residents understand the Trust Act and their rights.</p>
-  <p></p>
   <img src="/Image2.jpg" alt ="Immigration Protest" width = 50% height = 50%>
   <footer style="text-align: center; padding: 10px; background: #eee; font-size: 0.9em;">
   <p>Created by Kevin Vasquez for my AP Computer Science A WE Service Project © 2025</p>
+  </footer>
+</div>
+
+<div id="spanish-content" style="display: none;">
+ <h1>Bienvenido al sitio de información sobre los derechos de los inmigrantes</h1>
+  <p>Este sitio ayuda a los residentes de Hartford a entender la Ley de Confianza y sus derechos.</p>
+  <img src="/Image2.jpg" alt ="Immigration Protest" width = 50% height = 50%>
+  <footer style="text-align: center; padding: 10px; background: #eee; font-size: 0.9em;">
+  <p>Creado por Kevin Vasquez para mi proyecto de Servicio WE de AP Computer Science A. © 2025</p>
+  </footer>
+</div>
+
+<div id="portuguese-content" style="display: none;">
+  <h1>Bem-vindo ao site de informações sobre os direitos dos imigrantes</h1>
+  <p>Este site ajuda os residentes de Hartford a entender a Lei da Confiança e seus direitos.</p>
+  <img src="/Image2.jpg" alt ="Immigration Protest" width = 50% height = 50%>
+  <footer style="text-align: center; padding: 10px; background: #eee; font-size: 0.9em;">
+  <p>Criado por Kevin Vasquez para meu Projeto de Serviço WE da disciplina AP Computer Science A. © 2025</p>
 </footer>
+</div>
 </body>
 </html>
