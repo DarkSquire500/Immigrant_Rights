@@ -80,3 +80,14 @@ li {
 #language-toggle button:hover {
   background-color: #006699;
 }
+
+.download-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.download-btn:hover {
+  background-color: #0056b3;
+}
