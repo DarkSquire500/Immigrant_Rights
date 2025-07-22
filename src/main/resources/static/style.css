@@ -1,10 +1,10 @@
 header {
-  background-color: #004466;
+  background-color: #0096CC;
   padding: 12px;
 }
 
 .navbar {
-  background-color: #004466;
+  background-color: #0096CC;
   display: flex;
   padding: 10px;
 }
@@ -61,13 +61,13 @@ li {
   color: #ffcc00;
   text-decoration: underline;
   font-weight: bold;
-  background-color: #00446655; /* subtle background shade */
+  background-color: #0096CC; /* subtle background shade */
   padding: 4px 8px;
   border-radius: 6px;
 }
 
 #language-toggle button {
-  background-color: #004466;
+  background-color: #0096CC;
   color: white;
   border: none;
   padding: 6px 12px;
@@ -78,7 +78,7 @@ li {
 }
 
 #language-toggle button:hover {
-  background-color: #006699;
+  background-color: #0096CC;
 }
 
 .download-btn {
